@@ -1,0 +1,17 @@
+
+
+In ML functions can be defined with pattern matching. However when separate definitions are defined (via pattern
+matching) it seems impossible to share a single helper function amongst them.
+
+Haskell pros:
+  * clear pure/non-pure divide.
+  * type classes
+
+Haskell cons:
+  * (-1) for negative numbers. i.e. No negative number literals - just a unary operator.
+  * Deriving type classes is not extensible. True?
+  * Differences between data and newtype necessary? Probably. It's nice to have the guarantee
+    that it goes away at runtime for newtype and this leads to slightly different behaviour.
+
+Ideas:
+  * Extensible syntax for literals like reader macros in Common Lisp.

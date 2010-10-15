@@ -1,0 +1,46 @@
+
+Language implementations:
+
+  First:
+    Fundamental: Lambda Calculus, SK(I), Pi Calculus, Simply Typed Lambda Calculus.
+    Esoteric: Befunge, Brainfsck, False, Intercal, merd(?).
+    Scripting/Extension: C-Talk, Lua, Perl, Python, Ruby, Tcl, JavaScript, QuakeC, UnrealScript.
+    Functional Lisp-family: Lisp, Scheme, CL, Dylan, Goo.
+    Functional ML-family: Tiger, ML, SML, NekoML, Objective Caml.
+    Functional Pure: Haskell, Clean.
+    Dataflow/Constraint: Oz.
+    Logic: Oz, Prolog, Poplog, Mercury.
+    Array/Vector: APL, J, K, A+.
+
+  Next:
+    Object prototype-based: JavaScript, Self, Io, Ioke.
+    Object class-based single-dispatch: Smalltalk, Java, C#.
+    Object class-baesd multi-dispatch: OO: Dylan, Goo, Cecil, CL(OS).
+    Stack: Forth, Factor, Joy, PostScript.
+    Rules: CLIPS, Jess, OPS5, Prolog.
+
+  Specifically interesting:
+    E - Networking/distribution/capabilities.
+      - Optimisation of network calls (e.g. compress many calls to one message).
+    Erlang - OTP for building fault-tolerant servers.
+    Alice - Alice ML from the Oz guys.
+    D - Multi-paradigm, excellent C integration, systems programming.
+    Sather - Eiffel-like with additional coolness.
+    Modula-3 - Pascal-like systems programming, threads, GC.
+    Obliq - Network/distributed scripting on top of Modula-3 runtime.
+    BETA - Everything is nested "patterns" (i.e. functions/classes/methods/packages/modules).
+    Icon - Scripting with generators.
+    F-Script - UI-shell scripting for Mac with function/vector/object influences.
+    Nemerle - Multi-paradigm .NET language with syntatic macros.
+    BitC - High level language for low-level programming.
+    Cyclone - Similar to BitC.
+
+Targets:
+  Portable abstract tree interpreter.
+  Portable bytecode interpreter.
+  C
+  JVML/JVM
+  CIL/CLI
+  JavaScript (via Neko)
+  Flash/AVM (via Neko)
+
