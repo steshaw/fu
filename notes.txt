@@ -6,6 +6,7 @@ matching) it seems impossible to share a single helper function amongst them.
 Haskell pros:
   * clear pure/non-pure divide.
   * type classes
+  * types of a higher-kind
 
 Haskell cons:
   * (-1) for negative numbers. i.e. No negative number literals - just a unary operator.
