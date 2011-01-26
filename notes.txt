@@ -1,5 +1,4 @@
 
-
 In ML functions can be defined with pattern matching. However when separate definitions are defined (via pattern
 matching) it seems impossible to share a single helper function amongst them.
 
@@ -16,3 +15,4 @@ Haskell cons:
 
 Ideas:
   * Extensible syntax for literals like reader macros in Common Lisp.
+
